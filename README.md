@@ -11,6 +11,8 @@ An implementation of the classic Pong game using turtle graphic Python.
   1. Create a paddle on the right side (width=20, height=100, x_pos=350, y_pos=0)
   2. Set up UP and DOWN keys on the keyboard to move the paddle.
        - Each key press shoule move the paddle up or down by 20 pixels
+       - By default, the screen will be automatically refreshed after each turtle movement, but when I use screen.tracer(0), it will turn off auto screen refresh.
+       - So the movements will be invisible until the screen is manually updated
 
 # Create another paddle
 
